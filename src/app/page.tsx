@@ -89,7 +89,14 @@ export default function Page() {
         <p>
           © 2024 Naiara Gomez Castro
           <br />
-          Powered by <b>Next.js</b> <b>·</b> Hosted on <b>GitHub Pages</b>
+          Powered by{' '}
+          <a href="https://nextjs.org" rel="noreferrer">
+            <b>Next.js</b>
+          </a>{' '}
+          <b>·</b> Hosted on{' '}
+          <a href="https://pages.github.com/" rel="noreferrer">
+            <b>GitHub Pages</b>
+          </a>
         </p>
       </footer>
     </>
