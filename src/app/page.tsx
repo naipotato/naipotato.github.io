@@ -1,13 +1,8 @@
 import '~/features/home/styles/index.css';
 
-import type { Metadata } from 'next';
 import { useId } from 'react';
 
 import { Discord, Fediverse, Matrix, Telegram } from '~/common/icons';
-
-export const metadata: Metadata = {
-  title: 'Naiara 💖️',
-};
 
 export default function Page() {
   const telegramLabel = useId();
