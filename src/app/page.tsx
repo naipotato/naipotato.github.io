@@ -1,6 +1,6 @@
 import '~/features/home/styles/index.css';
 
-import { IconLink } from '~/common/components';
+import { IconLink, TextLink } from '~/common/components';
 import {
   DiscordIcon,
   FediverseIcon,
@@ -70,16 +70,16 @@ export default function Page() {
           <div>
             <p>
               Powered by{' '}
-              <a href="https://nextjs.org" rel="noreferrer">
-                <b>Next.js</b>
-              </a>
+              <TextLink to="https://nextjs.org" rel="noreferrer">
+                Next.js
+              </TextLink>
             </p>
             <div aria-hidden="true">·</div>
             <p>
               Hosted on{' '}
-              <a href="https://pages.github.com/" rel="noreferrer">
-                <b>GitHub Pages</b>
-              </a>
+              <TextLink to="https://pages.github.com/" rel="noreferrer">
+                GitHub Pages
+              </TextLink>
             </p>
           </div>
         </div>
