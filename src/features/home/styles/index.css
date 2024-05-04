@@ -142,7 +142,8 @@ footer {
           opacity 200ms var(--fast-out-slow-in);
       }
 
-      &:hover::after {
+      &:hover::after,
+      &:focus::after {
         width: 100%;
         left: 0;
         opacity: 100%;
