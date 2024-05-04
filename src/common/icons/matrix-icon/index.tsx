@@ -1,4 +1,4 @@
-export default function Matrix() {
+export default function MatrixIcon() {
   return (
     <svg
       width="24"

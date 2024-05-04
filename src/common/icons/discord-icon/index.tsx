@@ -1,4 +1,4 @@
-export default function Discord() {
+export default function DiscordIcon() {
   return (
     <svg
       width="24"

@@ -2,7 +2,12 @@ import '~/features/home/styles/index.css';
 
 import { useId } from 'react';
 
-import { Discord, Fediverse, Matrix, Telegram } from '~/common/icons';
+import {
+  DiscordIcon,
+  FediverseIcon,
+  MatrixIcon,
+  TelegramIcon,
+} from '~/common/icons';
 
 export default function Page() {
   const telegramLabel = useId();
@@ -34,7 +39,7 @@ export default function Page() {
               rel="me noreferrer"
               aria-labelledby={telegramLabel}
             >
-              <Telegram />
+              <TelegramIcon />
             </a>
             <div role="tooltip" id={telegramLabel}>
               Telegram
@@ -46,7 +51,7 @@ export default function Page() {
               rel="me noreferrer"
               aria-labelledby={fediverseLabel}
             >
-              <Fediverse />
+              <FediverseIcon />
             </a>
             <div role="tooltip" id={fediverseLabel}>
               Fediverse
@@ -58,7 +63,7 @@ export default function Page() {
               rel="me noreferrer"
               aria-labelledby={matrixLabel}
             >
-              <Matrix />
+              <MatrixIcon />
             </a>
             <div role="tooltip" id={matrixLabel}>
               Matrix
@@ -70,7 +75,7 @@ export default function Page() {
               rel="me noreferrer"
               aria-labelledby={discordLabel}
             >
-              <Discord />
+              <DiscordIcon />
             </a>
             <div role="tooltip" id={discordLabel}>
               Discord

@@ -1,4 +1,4 @@
-export default function Fediverse() {
+export default function FediverseIcon() {
   return (
     <svg
       width="24"
