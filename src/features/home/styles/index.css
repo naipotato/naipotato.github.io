@@ -112,41 +112,57 @@ footer {
     }
   }
 
-  > p {
-    text-align: center;
+  > div {
+    display: flex;
+    flex-flow: column nowrap;
 
-    > a {
-      color: currentcolor;
-      text-decoration: none;
+    align-items: center;
 
-      position: relative;
+    p {
+      text-align: center;
 
-      &::after {
-        content: '';
+      > a {
+        color: currentcolor;
+        text-decoration: none;
 
-        background-color: currentcolor;
+        position: relative;
 
-        width: 0;
-        height: 2px;
+        &::after {
+          content: '';
 
-        position: absolute;
+          background-color: currentcolor;
 
-        left: 50%;
-        bottom: 0;
+          width: 0;
+          height: 2px;
 
-        opacity: 0%;
+          position: absolute;
 
-        transition:
-          width 200ms var(--fast-out-slow-in),
-          left 200ms var(--fast-out-slow-in),
-          opacity 200ms var(--fast-out-slow-in);
+          left: 50%;
+          bottom: 0;
+
+          opacity: 0%;
+
+          transition:
+            width 200ms var(--fast-out-slow-in),
+            left 200ms var(--fast-out-slow-in),
+            opacity 200ms var(--fast-out-slow-in);
+        }
+
+        &:hover::after,
+        &:focus::after {
+          width: 100%;
+          left: 0;
+          opacity: 100%;
+        }
       }
+    }
 
-      &:hover::after,
-      &:focus::after {
-        width: 100%;
-        left: 0;
-        opacity: 100%;
+    > div {
+      display: flex;
+      gap: 0.25rem;
+
+      > div {
+        font-weight: 700;
       }
     }
   }

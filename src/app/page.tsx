@@ -65,18 +65,24 @@ export default function Page() {
           </li>
         </ul>
 
-        <p>
-          © 2024 Naiara Gomez Castro
-          <br />
-          Powered by{' '}
-          <a href="https://nextjs.org" rel="noreferrer">
-            <b>Next.js</b>
-          </a>{' '}
-          <b>·</b> Hosted on{' '}
-          <a href="https://pages.github.com/" rel="noreferrer">
-            <b>GitHub Pages</b>
-          </a>
-        </p>
+        <div>
+          <p>© 2024 Naiara Gomez Castro</p>
+          <div>
+            <p>
+              Powered by{' '}
+              <a href="https://nextjs.org" rel="noreferrer">
+                <b>Next.js</b>
+              </a>
+            </p>
+            <div aria-hidden="true">·</div>
+            <p>
+              Hosted on{' '}
+              <a href="https://pages.github.com/" rel="noreferrer">
+                <b>GitHub Pages</b>
+              </a>
+            </p>
+          </div>
+        </div>
       </footer>
     </>
   );
