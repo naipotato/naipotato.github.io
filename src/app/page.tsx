@@ -22,10 +22,7 @@ export default function Page() {
             </span>
             <br />a programmer girl based in Argentina
           </h1>
-          <img
-            src="/images/drawing.avif"
-            alt="Dark brown-haired, brunette girl with dark-framed glasses and gold earrings. She is wearing a red crop top, and white pants."
-          />
+          <img src="/images/drawing.avif" alt="" />
         </div>
       </main>
 
