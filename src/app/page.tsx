@@ -1,4 +1,4 @@
-import '~/features/home/styles/index.css';
+import './styles.css';
 
 import { IconLink, TextLink } from '~/common/components';
 import {
