@@ -17,7 +17,11 @@ export default function Page() {
             Hi there,
             <br />
             <span>
-              I&apos;m <span>Naiara ♡</span>,
+              I&apos;m{' '}
+              <span>
+                Naiara <span aria-hidden="true">♡</span>
+              </span>
+              ,
             </span>
             <br />a programmer girl based in Argentina
           </h1>
