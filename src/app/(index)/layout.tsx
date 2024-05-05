@@ -1,4 +1,4 @@
-import '~/common/styles/shared.css';
+import '~/styles/shared.css';
 
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';

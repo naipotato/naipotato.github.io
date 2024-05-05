@@ -1,12 +1,7 @@
 import './styles.css';
 
-import { IconLink, TextLink } from '~/common/components';
-import {
-  DiscordIcon,
-  FediverseIcon,
-  MatrixIcon,
-  TelegramIcon,
-} from '~/common/icons';
+import { IconLink, TextLink } from '~/components';
+import { DiscordIcon, FediverseIcon, MatrixIcon, TelegramIcon } from '~/icons';
 
 export default function Page() {
   return (
