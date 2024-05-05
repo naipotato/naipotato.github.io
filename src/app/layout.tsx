@@ -9,19 +9,19 @@ export interface RootLayoutProps {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://naiara.one'),
-  title: 'Naiara 💖️',
+  title: 'Naiara',
   description: 'A programmer girl based in Argentina',
   openGraph: {
-    title: 'Naiara 💖️',
+    title: 'Naiara',
     description: 'A programmer girl based in Argentina',
     url: 'https://naiara.one',
-    siteName: 'Naiara 💖️',
+    siteName: 'Naiara',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Naiara 💖️',
+    title: 'Naiara',
     description: 'A programmer girl based in Argentina',
   },
 };
