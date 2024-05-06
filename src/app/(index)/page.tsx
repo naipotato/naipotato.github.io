@@ -1,7 +1,27 @@
 import './styles.css';
 
+import type { Metadata } from 'next';
+
 import { IconLink, TextLink } from '~/components';
 import { DiscordIcon, FediverseIcon, MatrixIcon, TelegramIcon } from '~/icons';
+
+export const metadata: Metadata = {
+  title: 'Naiara',
+  description: 'A programmer girl based in Argentina',
+  openGraph: {
+    title: 'Naiara',
+    description: 'A programmer girl based in Argentina',
+    url: 'https://naiara.one',
+    siteName: 'Naiara',
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Naiara',
+    description: 'A programmer girl based in Argentina',
+  },
+};
 
 export default function Page() {
   return (
