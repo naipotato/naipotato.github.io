@@ -1,7 +1,12 @@
-import '~/styles/shared.css';
+import '~/styles/base.css';
+import '~/styles/colors.css';
+import '~/styles/curves.css';
+import '~/styles/fonts.css';
 
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
+
+import styles from './styles.module.css';
 
 interface Props {
   children: ReactNode[];
@@ -20,7 +25,7 @@ export default function Layout(props: Props) {
 
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={styles.body}>{children}</body>
     </html>
   );
 }

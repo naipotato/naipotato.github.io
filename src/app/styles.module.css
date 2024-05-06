@@ -1,0 +1,18 @@
+.body {
+  display: flex;
+  flex-flow: column nowrap;
+
+  font-family: 'Inter Variable', sans-serif;
+  font-optical-sizing: auto;
+
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+
+  padding: 1rem;
+  gap: 1rem;
+
+  @media (width >= 37.5rem) {
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+}

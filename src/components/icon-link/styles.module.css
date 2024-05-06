@@ -1,12 +1,12 @@
 .icon-link {
   opacity: 60%;
-  transition: opacity 200ms var(--fast-out-slow-in);
+  transition: opacity 200ms var(--curve-fast-out-slow-in);
 
   color: currentcolor;
 
   + [role='tooltip'] {
     opacity: 0%;
-    transition: opacity 200ms var(--fast-out-slow-in);
+    transition: opacity 200ms var(--curve-fast-out-slow-in);
 
     position: absolute;
 
