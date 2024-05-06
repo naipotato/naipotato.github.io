@@ -3,7 +3,7 @@ import '~/styles/shared.css';
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
 
-export interface RootLayoutProps {
+interface Props {
   children: ReactNode[];
 }
 
@@ -15,7 +15,7 @@ export const viewport: Viewport = {
   colorScheme: 'light dark',
 };
 
-export default function RootLayout(props: RootLayoutProps) {
+export default function Layout(props: Props) {
   const { children } = props;
 
   return (
