@@ -11,6 +11,7 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/strict',
+    'plugin:@next/next/core-web-vitals',
     'plugin:prettier/recommended',
   ],
   parserOptions: {
