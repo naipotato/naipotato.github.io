@@ -1,4 +1,4 @@
-main {
+.index-content {
   display: flex;
   flex-flow: column nowrap;
 
@@ -78,7 +78,7 @@ main {
   }
 }
 
-footer {
+.index-footer {
   display: flex;
   flex-flow: column nowrap;
 

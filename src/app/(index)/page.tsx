@@ -1,9 +1,9 @@
-import './styles.css';
-
 import type { Metadata } from 'next';
 
 import { IconLink, TextLink } from '~/components';
 import { DiscordIcon, FediverseIcon, MatrixIcon, TelegramIcon } from '~/icons';
+
+import styles from './styles.module.css';
 
 export const metadata: Metadata = {
   title: 'Naiara',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <main>
+      <main className={styles['index-content']}>
         <div>
           <h1>
             Hi there,
@@ -44,7 +44,7 @@ export default function Page() {
         </div>
       </main>
 
-      <footer>
+      <footer className={styles['index-footer']}>
         <ul>
           <li>
             <IconLink
