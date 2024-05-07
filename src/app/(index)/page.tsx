@@ -34,7 +34,7 @@ export default function Page() {
             <span>
               I&apos;m{' '}
               <span>
-                Naiara <span aria-hidden="true">♡</span>
+                Naiara <span role="presentation">♡</span>
               </span>
               ,
             </span>
@@ -93,7 +93,7 @@ export default function Page() {
                 Next.js
               </TextLink>
             </p>
-            <div aria-hidden="true">·</div>
+            <div role="presentation">·</div>
             <p>
               Hosted on{' '}
               <TextLink to="https://pages.github.com/" rel="noreferrer">
