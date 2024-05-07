@@ -25,7 +25,7 @@ export default function Layout(props: Props) {
 
   return (
     <html lang="en">
-      <body className={styles.body}>{children}</body>
+      <body className={styles['root-layout']}>{children}</body>
     </html>
   );
 }
