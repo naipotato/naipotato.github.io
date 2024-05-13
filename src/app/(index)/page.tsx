@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 
 import { IconLink, TextLink } from '~/components';
 import { DiscordIcon, FediverseIcon, MatrixIcon, TelegramIcon } from '~/icons';
 
+import drawing from './drawing.webp';
 import styles from './styles.module.css';
 
 export const metadata: Metadata = {
@@ -40,7 +42,7 @@ export default function Page() {
             </span>
             <br />a programmer girl based in Argentina
           </h1>
-          <img src="/images/drawing.avif" alt="" />
+          <Image className={styles['index-drawing']} src={drawing} alt="" />
         </div>
       </main>
 

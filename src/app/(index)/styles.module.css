@@ -68,8 +68,9 @@
       }
     }
 
-    > img {
+    > .index-drawing {
       width: 100%;
+      height: auto;
 
       @media (width >= 52.5rem) {
         width: 50%;
