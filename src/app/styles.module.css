@@ -16,3 +16,32 @@
     gap: 1.5rem;
   }
 }
+
+.root-not-found {
+  display: flex;
+  flex-flow: column nowrap;
+
+  align-self: center;
+  flex: 1 0 auto;
+
+  align-items: center;
+
+  > div {
+    display: flex;
+    flex-flow: column nowrap;
+
+    flex: 1 0 auto;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.5rem;
+
+    > h1 {
+      font-family: 'Shantell Sans Variable', sans-serif;
+      font-variation-settings:
+        'INFM' 100,
+        'BNCE' 30;
+    }
+  }
+}

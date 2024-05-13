@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 
 interface Props {
   children: ReactNode;
-  rel: string;
+  rel?: string;
   to: string;
 }
 
