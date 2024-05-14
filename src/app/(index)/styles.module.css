@@ -60,7 +60,7 @@
         }
 
         > span {
-          font-family: 'Shantell Sans Variable', sans-serif;
+          font-family: var(--font-shantell-sans);
           font-variation-settings:
             'INFM' 100,
             'BNCE' 50;

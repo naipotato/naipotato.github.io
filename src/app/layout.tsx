@@ -1,10 +1,12 @@
 import '~/styles/base.css';
 import '~/styles/colors.css';
 import '~/styles/curves.css';
-import '~/styles/fonts.css';
 
+import { clsx } from 'clsx';
 import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
+
+import { inter, shantellSans } from '~/fonts';
 
 import styles from './styles.module.css';
 
@@ -24,7 +26,7 @@ export default function Layout(props: Props) {
   const { children } = props;
 
   return (
-    <html lang="en">
+    <html lang="en" className={clsx(inter.variable, shantellSans.variable)}>
       <body className={styles['root-layout']}>{children}</body>
     </html>
   );
